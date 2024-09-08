@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Company>Reilly Digital</Company>
+		<Description>A .NET library for expanding dependency injection capabilities.</Description>
+		<EnableSourceLink>true</EnableSourceLink>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>12.0</LangVersion>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<Nullable>enable</Nullable>
+		<PackageId>DependencyInjection</PackageId>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageProjectUrl>https://gitlab.com/reilly-digital/dotnet/dependencyinjection</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>csharp, c#, dependency, injection, dependencyinjection, extensions</PackageTags>
+		<PackageVersion>0.1.0</PackageVersion>
+		<ProjectGuid>BC1097CE-D3A0-48F4-98E8-3AFF6B283C87</ProjectGuid>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://gitlab.com/reilly-digital/dotnet/dependencyinjection.git</RepositoryUrl>
+		<RootNamespace>ReillyDigital.Observables</RootNamespace>
+		<Summary>A .NET library for expanding dependency injection capabilities.</Summary>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<TargetFramework>net8.0</TargetFramework>
+		<Title>DependencyInjection - A .NET library for expanding dependency injection capabilities.</Title>
+		<Version>0.1.0</Version>
+	</PropertyGroup>
+	<ItemGroup Label="Global Usings">
+		<Using Include="ReillyDigital.DependencyInjection" />
+	</ItemGroup>
+	<ItemGroup Label="File References">
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>/</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>

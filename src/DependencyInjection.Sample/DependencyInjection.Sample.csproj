@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LanguageVersion>12.0</LanguageVersion>
+		<Nullable>enable</Nullable>
+		<OutputType>Exe</OutputType>
+		<ProjectGuid>F84F0091-5515-48A9-90F3-B6C9AC75DC16</ProjectGuid>
+		<RootNamespace>DependencyInjection.Sample</RootNamespace>
+		<TargetFramework>net8.0</TargetFramework>
+		<Version>0.1.0</Version>
+	</PropertyGroup>
+	<ItemGroup Label="Project References">
+		<ProjectReference Include="../DependencyInjection/DependencyInjection.csproj">
+			<Name>DependencyInjection</Name>
+			<Project>{BC1097CE-D3A0-48F4-98E8-3AFF6B283C87}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>
