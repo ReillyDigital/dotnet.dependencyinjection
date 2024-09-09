@@ -9,6 +9,9 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Version>0.1.0</Version>
 	</PropertyGroup>
+	<ItemGroup Label="Package References">
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+	</ItemGroup>
 	<ItemGroup Label="Project References">
 		<ProjectReference Include="../DependencyInjection/DependencyInjection.csproj">
 			<Name>DependencyInjection</Name>
