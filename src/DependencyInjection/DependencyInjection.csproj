@@ -8,7 +8,7 @@
 		<LangVersion>12.0</LangVersion>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<Nullable>enable</Nullable>
-		<PackageId>DependencyInjection</PackageId>
+		<PackageId>ReillyDigital.DependencyInjection</PackageId>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<PackageProjectUrl>https://gitlab.com/reilly-digital/dotnet/dependencyinjection</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
